@@ -2,15 +2,15 @@
 
 ** Step 1
 *** Write the BNF for mini-Pascal:
-program
-vars
-functions
-procedures
-if
-while
-for
-assignment
-expressions
+- program
+- vars
+- functions
+- procedures
+- if
+- while
+- for
+- assignment
+- expressions
 
 *** Write a lexical analyzer for mini-Pascal:
 goes through, pulls out reserved words & replaces with symbols, puts var names in symbol table
@@ -18,26 +18,26 @@ goes through, pulls out reserved words & replaces with symbols, puts var names i
 ** Step 2
 *** Write a syntactic analyzer for mini-Pascal
 **** should
-read lexical analyzer output
-determine if any syntax errors and what type of error
-produce MIPS assembly code runnable on SPIM
+- read lexical analyzer output
+- determine if any syntax errors and what type of error
+- produce MIPS assembly code runnable on SPIM
 **** handles: 
-program
-integer and boolean vars
-writeln
-readln
+- program
+- integer and boolean vars
+- writeln
+- readln
 
 ** Step 3
 *** Write an expression parser
 **** should:
-determine whether expression is syntactically valid
-handle numbers, symbols, (), +, -, =, <, >, <>
-turn expression into series of single operation steps w. temp vars
+- determine whether expression is syntactically valid
+- handle numbers, symbols, (), +, -, =, <, >, <>
+- turn expression into series of single operation steps w. temp vars
 
 *** Add expressions and assignment to syntactic analyzer
 **** should
-assignment
-expressions
+- assignment
+- expressions
 
 ** Step 4
 *** Add a semantic analyzer for mini-Pascal
@@ -45,14 +45,14 @@ should recognize boolean/integer type-mismatches
 
 ** Step 5
 *** Add to syntactic analyzer:
-if statements
-while loops
-for loops
+- if statements
+- while loops
+- for loops
 
 ** Step 6
 *** Add to syntactic analyzer:
-procedures
-functions
+- procedures
+- functions
 
 
 * BNF for mini-Pascal
