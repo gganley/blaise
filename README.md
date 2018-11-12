@@ -1,4 +1,4 @@
-# pascal
+# blaise
 Mini-Pascal Compiler
 
 ## Why
