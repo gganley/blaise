@@ -1,0 +1,14 @@
+[package]
+name = "blaise"
+version = "0.0.1"
+authors = [ "Gregory Ganley <gganley@archlinux>" ]
+description = "A Mini-Pascal compiler"
+edition = "2018"
+publish = false
+
+[dependencies]
+itertools = "0.8.0"
+
+[lib]
+name = "blaise"
+path = "src/lib.rs"
